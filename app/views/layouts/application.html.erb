@@ -10,6 +10,10 @@
   </head>
 
   <body>
+       <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
     <%= yield %>
+    <a href='users/sign_out' data-method='delete'>Sign out</a>
   </body>
 </html>
